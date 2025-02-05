@@ -1,6 +1,6 @@
 import * as motion from "motion/react-client";
 
-export default function Name() {
+export default function Subtitle() {
 	return (
 		<motion.div
 			initial={{ opacity: 0, scale: 0.5 }}
@@ -11,7 +11,7 @@ export default function Name() {
 				ease: [0, 0.71, 0.2, 1.01],
 			}}
 		>
-			<h1>Johnny Black</h1>
+			<h2>Your Next Engineer</h2>
 		</motion.div>
 	);
 }

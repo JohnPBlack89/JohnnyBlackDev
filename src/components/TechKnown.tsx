@@ -25,9 +25,9 @@ function TechKnown() {
 		js,
 		node,
 		react,
+		vite,
 		git,
 		sql,
-		vite,
 	];
 	return (
 		<>
