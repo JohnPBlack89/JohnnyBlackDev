@@ -4,13 +4,13 @@ import Name from "./components/Name";
 import Subtitle from "./components/Subtitle";
 
 function App() {
-	return (
-		<>
-			<Name />
-			<Subtitle />
-			<TechKnown />
-		</>
-	);
+  return (
+    <>
+      <Name />
+      <Subtitle />
+      <TechKnown />
+    </>
+  );
 }
 
 export default App;
