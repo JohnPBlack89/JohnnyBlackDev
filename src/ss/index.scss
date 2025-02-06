@@ -1,4 +1,5 @@
 $font-stack: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+$primary-color: #fba7f4;
 @use "App";
 :root {
 	font-family: $font-stack;
@@ -35,6 +36,7 @@ body {
 h1 {
 	font-size: 3.2em;
 	line-height: 1.1;
+	color: $primary-color;
 }
 
 button {

@@ -5,10 +5,10 @@ export default function Subtitle() {
 		<motion.div
 			initial={{ opacity: 0, scale: 0.5 }}
 			animate={{ opacity: 1, scale: 1 }}
-			whileHover={{ scale: 1.8 }}
+			whileHover={{ scale: 1.8, rotate: 0 }}
+			className="logo"
 			transition={{
 				duration: 2,
-				ease: [0, 0.71, 0.2, 1.01],
 			}}
 		>
 			<h2>Your Next Engineer</h2>
