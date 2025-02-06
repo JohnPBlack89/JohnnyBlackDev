@@ -11,6 +11,7 @@ import react from "../assets/images/react_logo.svg";
 import sass from "../assets/images/Sass_Logo_Color.svg";
 import sql from "../assets/images/sql.svg";
 import vite from "../assets/images/vite.svg";
+import github from "../assets/images/github-mark-white.svg";
 import * as motion from "motion/react-client";
 
 function TechKnown() {
@@ -27,6 +28,7 @@ function TechKnown() {
 		react,
 		vite,
 		git,
+		github,
 		sql,
 	];
 	return (
