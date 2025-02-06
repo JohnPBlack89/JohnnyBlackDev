@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="238mm"
+   height="241mm"
+   viewBox="0 0 238 241"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showguides="false"
      inkscape:zoom="1.0520974"
-     inkscape:cx="396.82639"
-     inkscape:cy="529.89392"
+     inkscape:cx="396.82638"
+     inkscape:cy="441.49905"
      inkscape:window-width="3440"
      inkscape:window-height="1377"
      inkscape:window-x="-8"
@@ -36,16 +36,16 @@
   <defs
      id="defs1">
     <rect
-       x="690.0502"
-       y="367.83668"
-       width="85.543414"
+       x="690.05017"
+       y="367.83667"
+       width="85.543411"
        height="114.05789"
        id="rect4" />
     <rect
-       x="50.375566"
-       y="175.83924"
+       x="50.375565"
+       y="175.83923"
        width="427.71707"
-       height="393.4997"
+       height="393.49969"
        id="rect2" />
   </defs>
   <g
@@ -54,27 +54,28 @@
      id="layer1">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:284.033px;line-height:1.25;font-family:Rockwell;-inkscape-font-specification:Rockwell;stroke-width:0.396232"
-       x="52.95237"
-       y="203.13292"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:295.21px;line-height:1.25;font-family:'Perpetua Titling MT';-inkscape-font-specification:'Perpetua Titling MT';fill:#00fff7;fill-opacity:1;stroke-width:0.411822"
+       x="58.463223"
+       y="226.48253"
        id="text6"
-       transform="scale(0.92136993,1.0853404)"><tspan
+       transform="scale(1.0156933,0.98454918)"
+       inkscape:label="text6"><tspan
          sodipodi:role="line"
          id="tspan6"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:284.033px;font-family:Rockwell;-inkscape-font-specification:Rockwell;fill:#00ffff;stroke-width:0.396232"
-         x="52.95237"
-         y="203.13292">B</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:295.21px;font-family:'Perpetua Titling MT';-inkscape-font-specification:'Perpetua Titling MT';fill:#00fff7;fill-opacity:1;stroke-width:0.411822"
+         x="58.463223"
+         y="226.48253">B</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:267.668px;line-height:1.25;font-family:Rockwell;-inkscape-font-specification:Rockwell;fill:#ff00ff;stroke-width:1.39409"
-       x="20.351044"
-       y="193.2722"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:315.465px;line-height:1.25;font-family:'Perpetua Titling MT';-inkscape-font-specification:'Perpetua Titling MT';fill:#fba7f4;stroke-width:1.64303;fill-opacity:1"
+       x="16.494925"
+       y="244.28075"
        id="text1"
-       transform="scale(1.0783696,0.92732585)"><tspan
+       transform="scale(1.2524397,0.79844164)"><tspan
          sodipodi:role="line"
          id="tspan1"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:267.668px;font-family:Rockwell;-inkscape-font-specification:Rockwell;fill:#ff00ff;stroke-width:1.39409"
-         x="20.351044"
-         y="193.2722">J</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:315.465px;font-family:'Perpetua Titling MT';-inkscape-font-specification:'Perpetua Titling MT';fill:#fba7f4;stroke-width:1.64303;fill-opacity:1"
+         x="16.494925"
+         y="244.28075">J</tspan></text>
   </g>
 </svg>

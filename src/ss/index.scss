@@ -1,12 +1,13 @@
-$font-stack: Handjet-Regular;
+$font-stack: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 $primary-color: #fba7f4;
 $secondary-color: #00fff7;
+$background-color: #0f001a;
 @use "App";
 
 @font-face {
 	font-family: "Handjet-Regular";
 	src: local("Handjet-Regular"),
-		url(../assets/fonts/Handjet-Regular.ttf) format("truetype");
+		url(../assets/fonts/Handjet-Regular.ttf) format("tff");
 }
 
 :root {
@@ -15,13 +16,17 @@ $secondary-color: #00fff7;
 	font-weight: 400;
 
 	color-scheme: light dark;
-	color: rgba(255, 255, 255, 0.87);
-	background-color: #999999;
+	color: $background-color;
+	background-color: $background-color;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+canvas {
+	background-color: $background-color;
 }
 
 a {
