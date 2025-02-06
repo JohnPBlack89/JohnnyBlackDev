@@ -1,17 +1,19 @@
-import cpp from "../assets/images/cplusplus.svg";
-import cs from "../assets/images/csharp.svg";
-import css3 from "../assets/images/css-3.svg";
-import git from "../assets/images/Git_logo.svg";
-import html5 from "../assets/images/html-5.svg";
-import java4 from "../assets/images/java.svg";
-import js from "../assets/images/JavaScript-logo.png";
-import node from "../assets/images/Node-js.svg";
-import python from "../assets/images/python.svg";
-import react from "../assets/images/react_logo.svg";
-import sass from "../assets/images/Sass_Logo_Color.svg";
-import sql from "../assets/images/sql.svg";
-import vite from "../assets/images/vite.svg";
-import github from "../assets/images/github-mark-white.svg";
+import cpp from "../assets/images/logos/c.svg";
+import cs from "../assets/images/logos/c--4.svg";
+import css3 from "../assets/images/logos/css-3.svg";
+import git from "../assets/images/logos/Git_logo.svg";
+import html5 from "../assets/images/logos/html5.svg";
+import java4 from "../assets/images/logos/java.svg";
+import js from "../assets/images/logos/JavaScript-logo.svg";
+import node from "../assets/images/logos/Node-js.svg";
+import python from "../assets/images/logos/python.svg";
+import react from "../assets/images/logos/react_logo.svg";
+import sass from "../assets/images/logos/Sass_Logo_Color.svg";
+import sql from "../assets/images/logos/sql.svg";
+import vite from "../assets/images/logos/vite.svg";
+import github from "../assets/images/logos/github-mark-white.svg";
+import linkedIn from "../assets/images/logos/LinkedIn_icon.svg";
+import jb from "../assets/images/logos/JBLogo.svg";
 import * as motion from "motion/react-client";
 
 function TechKnown() {
@@ -27,9 +29,11 @@ function TechKnown() {
 		node,
 		react,
 		vite,
+		sql,
 		git,
 		github,
-		sql,
+		linkedIn,
+		jb,
 	];
 	return (
 		<>

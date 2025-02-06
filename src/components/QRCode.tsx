@@ -1,4 +1,4 @@
-import qrCode from "../assets/images/qr-code.svg";
+import qrCode from "../assets/images/logos/qr-code.svg";
 import * as motion from "motion/react-client";
 
 export default function QRCode() {

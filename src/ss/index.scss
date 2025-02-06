@@ -1,6 +1,14 @@
-$font-stack: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+$font-stack: Handjet-Regular;
 $primary-color: #fba7f4;
+$secondary-color: #00fff7;
 @use "App";
+
+@font-face {
+	font-family: "Handjet-Regular";
+	src: local("Handjet-Regular"),
+		url(../assets/fonts/Handjet-Regular.ttf) format("truetype");
+}
+
 :root {
 	font-family: $font-stack;
 	line-height: 1.5;
@@ -8,7 +16,7 @@ $primary-color: #fba7f4;
 
 	color-scheme: light dark;
 	color: rgba(255, 255, 255, 0.87);
-	background-color: #999990;
+	background-color: #999999;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -37,6 +45,10 @@ h1 {
 	font-size: 3.2em;
 	line-height: 1.1;
 	color: $primary-color;
+}
+
+h2 {
+	color: $secondary-color;
 }
 
 button {
