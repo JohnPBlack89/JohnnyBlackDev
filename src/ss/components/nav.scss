@@ -1,0 +1,30 @@
+@import "../utilities/variables.scss";
+
+.nav {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.navbar {
+	border: 2px solid $primary-color;
+	height: 4em;
+	padding: 0;
+	border-radius: 100px;
+	will-change: filter;
+	transition: filter 300ms;
+}
+
+.navbar-item {
+	color: $primary-color;
+	margin: 0;
+	height: 4em;
+	padding: 1.5em;
+}
+
+.navbar-item:hover {
+	color: $background-color;
+	cursor: pointer;
+	border-radius: inherit;
+	background-color: $primary-color;
+}

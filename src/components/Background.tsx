@@ -35,11 +35,7 @@ export default function Background() {
 
 	const options: ISourceOptions = useMemo(
 		() => ({
-			background: {
-				color: {
-					value: "#000000",
-				},
-			},
+			fullscreen: { zIndex: -10 },
 			fpsLimit: 120,
 			interactivity: {
 				events: {
