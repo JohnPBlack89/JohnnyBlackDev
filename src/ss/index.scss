@@ -48,6 +48,10 @@ h2 {
 	color: $secondary-color;
 }
 
+p {
+	color: $secondary-color;
+}
+
 nav {
 	color: $primary-color;
 }
@@ -72,7 +76,6 @@ button:hover {
 button:focus,
 button:focus-visible {
 	outline: 4px auto $secondary-color;
-	border-radius: 100px;
 }
 
 // @media (prefers-color-scheme: light) {

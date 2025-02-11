@@ -13,10 +13,9 @@ import sql from "../assets/images/logos/sql.svg";
 import vite from "../assets/images/logos/vite.svg";
 import github from "../assets/images/logos/github-mark-white.svg";
 import linkedIn from "../assets/images/logos/LinkedIn_icon.svg";
-import jb from "../assets/images/logos/JBLogo.svg";
 import * as motion from "motion/react-client";
 
-function TechKnown() {
+export default function Abilities() {
 	const logos = [
 		cpp,
 		cs,
@@ -33,23 +32,29 @@ function TechKnown() {
 		git,
 		github,
 		linkedIn,
-		jb,
 	];
 	return (
-		<>
+		<motion.div
+			initial={{ opacity: 0, scale: 0.5 }}
+			animate={{ opacity: 1, scale: 1 }}
+			className="title"
+			transition={{
+				duration: 2,
+			}}
+		>
+			<motion.h1 className="title">Abilities</motion.h1>
+			<motion.h2 className="title">Technologies Known</motion.h2>
 			{logos.map((logo) => (
 				<motion.img
 					initial={{ scale: 0 }}
-					animate={{ rotate: 360, scale: 1 }}
+					animate={{ scale: 1 }}
 					transition={{ duration: 1.2 }}
-					whileHover={{ scale: 1.8, rotate: 0 }}
+					whileHover={{ scale: 1.8 }}
 					src={logo}
 					className="logo"
 					alt={Object.keys({ logo })[0]}
 				/>
 			))}
-		</>
+		</motion.div>
 	);
 }
-
-export default TechKnown;

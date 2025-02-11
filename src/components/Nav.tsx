@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import { motion } from "framer-motion";
 
 export default function Nav() {
@@ -19,8 +18,19 @@ function NavBar() {
 	);
 }
 
-function NavbarItems({ children }: { children: ReactNode }) {
-	return <motion.button className="navbar-item">{children}</motion.button>;
+function NavbarItems({ children }: { children: INavItem }) {
+	return (
+		<motion.a className="navbar-item" href={children.link}>
+			{children.name}
+		</motion.a>
+	);
 }
-
-const sections = ["Home", "Experience", "Projects", "Abilities"];
+interface INavItem {
+	name: string;
+	link: string;
+}
+const home: INavItem = { name: "Home", link: "/" };
+const abilities: INavItem = { name: "Abilities", link: "/abilities" };
+const experience: INavItem = { name: "Experience", link: "/experience" };
+const qr: INavItem = { name: "QR Code", link: "/qrcode" };
+const sections = [home, experience, abilities, qr];
