@@ -1,20 +1,22 @@
 @import "../utilities/variables.scss";
 
 .nav {
-	top: 10px;
-	left: 10px;
+	// top: 10px;
+	// left: 10px;
+	display: block;
+	place-content: center;
 }
 
 .navbar {
 	border: 2px solid $primary-color;
-	height: 4em;
-	position: absolute;
-	top: 5%;
-	left: 5%;
+	height: $navbar-height;
+	width: fit-content;
+	position: relative;
 	padding: 0;
-	border-radius: 100px;
+	border-radius: 9999px;
 	will-change: filter;
 	display: inline-block;
+	list-style-type: none;
 }
 
 .navbar-item {
@@ -24,22 +26,21 @@
 	line-height: normal;
 	display: inline-block;
 	box-sizing: border-box;
-	mix-blend-mode: overlay;
+	mix-blend-mode: difference;
 	position: relative;
 	z-index: 10;
 }
 
 .navbar-item:hover {
-	color: $background-color;
 	cursor: pointer;
-	border-radius: inherit;
-	background-color: $primary-color;
-}
-
-.navbar-item:focus {
-	border-radius: 100px;
 }
 
 .navbar-cursor {
 	position: absolute;
+	border-radius: 9999px;
+	z-index: 0;
+	background-color: $primary-color;
+	box-sizing: border-box;
+	height: $navbar-height;
+	bottom: 0;
 }

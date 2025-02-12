@@ -12,15 +12,14 @@ export default function App() {
 		<>
 			<NavBar />
 			<Background />
-
-			<BrowserRouter>
+			{/* <BrowserRouter>
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/qrcode" element={<QRCode />} />
 					<Route path="/abilities" element={<Abilities />} />
 					<Route path="/experience" element={<Experience />} />
 				</Routes>
-			</BrowserRouter>
+			</BrowserRouter> */}
 		</>
 	);
 }
