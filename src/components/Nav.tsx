@@ -3,7 +3,6 @@ import { useRef, useState } from "react";
 import Home from "./Home";
 import Abilities from "./Abilities";
 import Experience from "./Experience";
-import QRCode from "./QRCode";
 
 export default function Nav() {
 	const [element, setElement] = useState({
