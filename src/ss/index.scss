@@ -1,16 +1,16 @@
 @use "App";
 @use "./components/nav.scss";
 @use "./components/title.scss";
-@import "./utilities/variables.scss";
+@use "./utilities/variables.scss";
 
 :root {
-	font-family: $font-main;
+	font-family: variables.$font-main;
 	line-height: 1.5;
 	font-weight: 400;
 
 	color-scheme: light dark;
-	color: $background-color;
-	background-color: $background-color;
+	color: variables.$background-color;
+	background-color: variables.$background-color;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -19,16 +19,13 @@
 }
 
 canvas {
-	background-color: $background-color;
+	background-color: variables.$background-color;
 }
 
 a {
 	font-weight: 500;
-	color: $secondary-color;
+	color: variables.$secondary-color;
 	text-decoration: inherit;
-}
-a:hover {
-	color: adjust-hue($secondary-color, 4);
 }
 
 body {
@@ -41,23 +38,23 @@ body {
 
 h1 {
 	font-size: 3.2em;
-	color: $primary-color;
+	color: variables.$primary-color;
 }
 
 h2 {
-	color: $secondary-color;
+	color: variables.$secondary-color;
 }
 
 p {
-	color: $secondary-color;
+	color: variables.$secondary-color;
 }
 
 nav {
-	color: $primary-color;
+	color: variables.$primary-color;
 }
 
 li {
-	color: $primary-color;
+	color: variables.$primary-color;
 }
 
 button {
@@ -71,11 +68,11 @@ button {
 	transition: border-color 0.25s;
 }
 button:hover {
-	border-color: $primary-color;
+	border-color: variables.$primary-color;
 }
 button:focus,
 button:focus-visible {
-	outline: 4px auto $secondary-color;
+	outline: 4px auto variables.$secondary-color;
 }
 
 // @media (prefers-color-scheme: light) {
