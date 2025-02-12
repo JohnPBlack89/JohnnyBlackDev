@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "../dist/css/index.min.css";
+import "./ss/index.scss";
 import QRCode from "./components/QRCode";
 import NavBar from "./components/Nav";
 import Home from "./components/Home";

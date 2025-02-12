@@ -8,10 +8,13 @@
 .navbar {
 	border: 2px solid $primary-color;
 	height: 4em;
+	position: absolute;
+	top: 5%;
+	left: 5%;
 	padding: 0;
 	border-radius: 100px;
 	will-change: filter;
-	transition: filter 300ms;
+	display: inline-block;
 }
 
 .navbar-item {
@@ -21,6 +24,9 @@
 	line-height: normal;
 	display: inline-block;
 	box-sizing: border-box;
+	mix-blend-mode: overlay;
+	position: relative;
+	z-index: 10;
 }
 
 .navbar-item:hover {
@@ -32,4 +38,8 @@
 
 .navbar-item:focus {
 	border-radius: 100px;
+}
+
+.navbar-cursor {
+	position: absolute;
 }

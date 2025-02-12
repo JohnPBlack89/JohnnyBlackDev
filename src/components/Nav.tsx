@@ -10,7 +10,7 @@ export default function Nav() {
 
 function NavBar() {
 	return (
-		<motion.ul className="navbar">
+		<motion.ul className="navbar flex relative">
 			{sections.map((section) => (
 				<NavbarItems>{section}</NavbarItems>
 			))}
@@ -20,7 +20,7 @@ function NavBar() {
 
 function NavbarItems({ children }: { children: INavItem }) {
 	return (
-		<motion.a className="navbar-item" href={children.link}>
+		<motion.a className="navbar-item relative" href={children.link}>
 			{children.name}
 		</motion.a>
 	);
