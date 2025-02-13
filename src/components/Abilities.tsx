@@ -11,8 +11,6 @@ import react from "../assets/images/logos/react_logo.svg";
 import sass from "../assets/images/logos/Sass_Logo_Color.svg";
 import sql from "../assets/images/logos/sql.svg";
 import vite from "../assets/images/logos/vite.svg";
-import github from "../assets/images/logos/github-mark-white.svg";
-import linkedIn from "../assets/images/logos/LinkedIn_icon.svg";
 import * as motion from "motion/react-client";
 
 export default function Abilities() {
@@ -30,8 +28,6 @@ export default function Abilities() {
 		vite,
 		sql,
 		git,
-		github,
-		linkedIn,
 	];
 	return (
 		<motion.div

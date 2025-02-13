@@ -3,6 +3,7 @@ import { useRef, useState } from "react";
 import Home from "./Home";
 import Abilities from "./Abilities";
 import Experience from "./Experience";
+import ContactMe from "./ContactMe";
 
 export default function Nav() {
 	const [element, setElement] = useState({
@@ -114,4 +115,5 @@ interface INavBarItem extends INavItem {
 const home: INavItem = { name: "Home", element: <Home /> };
 const abilities: INavItem = { name: "Abilities", element: <Abilities /> };
 const experience: INavItem = { name: "Experience", element: <Experience /> };
-const sections = [home, experience, abilities];
+const contactMe: INavItem = { name: "Contact Me", element: <ContactMe /> };
+const sections = [home, experience, abilities, contactMe];
