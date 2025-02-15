@@ -44,3 +44,15 @@ $navbar-height: 4em;
 	height: $navbar-height;
 	bottom: 0;
 }
+
+@media screen and (max-width: 480px) {
+	.navbar {
+		height: auto;
+	}
+	.navbar-item {
+		padding: 1em;
+	}
+	.navbar-cursor {
+		height: 0;
+	}
+}
