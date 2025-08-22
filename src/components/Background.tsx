@@ -37,56 +37,28 @@ export default function Background() {
 		() => ({
 			fullscreen: { zIndex: -10 },
 			fpsLimit: 120,
-			interactivity: {
-				events: {
-					onClick: {
-						enable: true,
-						mode: "push",
-					},
-					onHover: {
-						enable: true,
-						mode: "repulse",
-					},
-				},
-				modes: {
-					push: {
-						quantity: 4,
-					},
-					repulse: {
-						distance: 200,
-						duration: 0.4,
-					},
-				},
-			},
 			particles: {
 				color: {
-					value: "#fba7f4",
-				},
-				links: {
-					color: "#00fff7",
-					distance: 150,
-					enable: true,
-					opacity: 0.5,
-					width: 1,
+					value: "#fff",
 				},
 				move: {
-					direction: MoveDirection.none,
+					direction: MoveDirection.right,
 					enable: true,
 					outModes: {
 						default: OutMode.out,
 					},
-					random: false,
-					speed: 6,
-					straight: false,
+					random: true,
+					speed: 10,
+					straight: true,
 				},
 				number: {
 					density: {
 						enable: true,
 					},
-					value: 80,
+					value: 200,
 				},
 				opacity: {
-					value: 0.5,
+					value: 0.4,
 				},
 				shape: {
 					type: "circle",

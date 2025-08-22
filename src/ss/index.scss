@@ -75,6 +75,14 @@ button:focus-visible {
 	outline: 4px auto variables.$secondary-color;
 }
 
+.svg-logo-primary svg path {
+	fill: variables.$primary-color;
+}
+
+.svg-logo-secondary svg path {
+	fill: variables.$secondary-color;
+}
+
 // @media (prefers-color-scheme: light) {
 // 	:root {
 // 		color: #213547;

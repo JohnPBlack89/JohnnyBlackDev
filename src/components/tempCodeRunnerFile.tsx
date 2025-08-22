@@ -1,0 +1,17 @@
+const logos = [
+		cpp,
+		cs,
+		java4,
+		python,
+		html5,
+		css3,
+		sass,
+		js,
+		node,
+		react,
+		vite,
+		sql,
+		git,
+		azure,
+		aws,
+	];
